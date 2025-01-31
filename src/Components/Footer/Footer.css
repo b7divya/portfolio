@@ -1,0 +1,140 @@
+/* Footer Styling */
+.footer {
+    background-color: #1a1a1a; /* Darker background for a sleek look */
+    color: #fff; /* White text for contrast */
+    padding: 3rem 5rem; /* Increased padding for more breathing space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5rem;
+    border-top: 2px solid #444; /* Subtle border for separation */
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* Email Section */
+.footer-container-mail {
+    margin-bottom: 2rem;
+}
+
+.contact-container-desc {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.contact-container-mail {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-container-mail:hover {
+    color: #4c8bf5; /* Soft blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Social Links Container */
+.footer-container-social {
+    display: flex;
+    gap: 2rem; /* Reduced space between links */
+    margin-bottom: 2.5rem;
+}
+
+/* Social Button Styling */
+.footer-container-social a {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 0.8rem 2rem; /* Slightly reduced padding */
+    font-size: 1.2rem; /* Adjusted font size for better balance */
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 25px; /* Slightly reduced border-radius for a more subtle look */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.footer-container-social a:hover {
+    background-color: #fff;
+    color: #1a1a1a; /* Dark text on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Hover shadow for depth */
+}
+
+/* LinkedIn Button */
+.footer-container-social-linkedin:hover {
+    background-color: #0077b5; /* LinkedIn blue on hover */
+    color: #fff;
+    border: 2px solid #0077b5;
+}
+
+/* Git Button */
+.footer-container-social-git:hover {
+    background-color: #333; /* Dark background on Git button */
+    color: #fff;
+    border: 2px solid #333;
+}
+
+/* Copyright Text Styling */
+.footer-container-copyright {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6); /* Muted white for the copyright text */
+    margin-top: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    transition: color 0.3s ease;
+}
+
+.footer-container-copyright:hover {
+    color: #4c8bf5; /* Soft blue color on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 1024px) {
+    .footer-container-social {
+        gap: 1.5rem; /* Reduced space on medium screens */
+    }
+
+    .footer-container-social a {
+        padding: 0.8rem 1.8rem;
+        font-size: 1.1rem;
+    }
+
+    .footer-container-copyright {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container-social {
+        flex-direction: column;
+        gap: 1.5rem; /* Adjust for mobile screen size */
+    }
+
+    .footer-container-social a {
+        font-size: 1.1rem;
+        padding: 0.8rem 1.8rem;
+    }
+
+    .footer-container-copyright {
+        font-size: 0.9rem;
+    }
+}

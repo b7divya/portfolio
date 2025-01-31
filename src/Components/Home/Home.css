@@ -1,0 +1,49 @@
+/* Home About Me Section */
+.home-container-aboutme {
+    background-color: #f4f8ff; /* Light blue background for contrast */
+    border-radius: 12px; /* Rounded corners */
+    padding: 2rem; /* Padding for spacing */
+    margin: 2rem 0; /* Vertical margin for separation */
+    text-align: center; /* Center-align text and button */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.home-container-aboutme p {
+    font-size: 1.2rem; /* Text size for readability */
+    line-height: 1.8; /* Line height for better spacing */
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 1.5rem; /* Space between text and button */
+}
+
+.home-container-aboutme button {
+    background-color: #4c8bf5; /* Blue background for the button */
+    color: white; /* White text for contrast */
+    font-size: 1rem; /* Standard font size */
+    padding: 0.8rem 1.5rem; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+.home-container-aboutme button:hover {
+    background-color: #366dcf; /* Darker blue on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Hover shadow for depth */
+    transform: translateY(-3px); /* Slight upward movement on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .home-container-aboutme {
+        padding: 1.5rem; /* Adjust padding for smaller screens */
+    }
+
+    .home-container-aboutme p {
+        font-size: 1rem; /* Smaller font size for smaller screens */
+    }
+
+    .home-container-aboutme button {
+        font-size: 0.9rem; /* Adjust button font size */
+        padding: 0.6rem 1.2rem; /* Adjust button padding */
+    }
+}
